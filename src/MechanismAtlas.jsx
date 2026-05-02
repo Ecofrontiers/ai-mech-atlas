@@ -1158,6 +1158,7 @@ export default function InstitutionalDesignAtlas(){
       @media (max-width: 768px) {
         .nav-inner { padding: 12px 16px !important; gap: 8px !important; }
         .nav-socials { display: none !important; }
+        .hero-illustration { display: none !important; }
         .hero-section { padding: 100px 16px 40px !important; }
         .hero-stats { gap: 16px !important; }
         .main-content { padding: 0 16px 80px !important; }
@@ -1264,7 +1265,7 @@ export default function InstitutionalDesignAtlas(){
       </div>
     </nav>
     <div id="top" style={{position:"relative",overflow:"hidden"}}>
-      <div style={{position:"absolute",top:-30,right:-100,opacity:0.25,pointerEvents:"none",transform:"scale(1.3)",transformOrigin:"top right",maskImage:"linear-gradient(to right, transparent 0%, rgba(0,0,0,0.3) 20%, rgba(0,0,0,1) 45%)",WebkitMaskImage:"linear-gradient(to right, transparent 0%, rgba(0,0,0,0.3) 20%, rgba(0,0,0,1) 45%)"}}><IllHero/></div>
+      <div className="hero-illustration" style={{position:"absolute",top:-30,right:-100,opacity:0.25,pointerEvents:"none",transform:"scale(1.3)",transformOrigin:"top right",maskImage:"linear-gradient(to right, transparent 0%, rgba(0,0,0,0.3) 20%, rgba(0,0,0,1) 45%)",WebkitMaskImage:"linear-gradient(to right, transparent 0%, rgba(0,0,0,0.3) 20%, rgba(0,0,0,1) 45%)"}}><IllHero/></div>
       <div className="hero-section" style={{position:"relative",maxWidth:1000,margin:"0 auto",padding:"130px 32px 60px"}}>
       <div style={{opacity:heroVis?1:0,transform:heroVis?"translateY(0)":"translateY(32px)",transition:"all 1s cubic-bezier(0.16,1,0.3,1)"}}>
         <div style={{marginBottom:20}}>
